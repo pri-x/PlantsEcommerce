@@ -72,7 +72,6 @@ class Cart
     // Fetch product details 
     private function getProductDetails($product_id)
     {
-        // Replace with actual database query to fetch product details by ID
         $productObj = new Product();
         return $productObj->getProductById($product_id);
     }
